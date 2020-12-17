@@ -9,10 +9,12 @@ server.get("/", (req, res, next) => {
 })
 
 server.get("/water", (req, res, next) => {
+    console.log("some one is asking water");
     res.send("Here is Water");
 })
 
 server.get("/food", (req, res, next) => {
+    console.log("some one is asking food");
     res.send("Here is food");
 })
 
